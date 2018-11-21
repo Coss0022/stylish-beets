@@ -39,7 +39,7 @@ img {
   height: 100%;
 }
 
-blockquote:not(cite) {
+blockquote {
   font-family: "PT Serif";
   font-size: 1.5rem;
 }
@@ -54,8 +54,4 @@ p, ul, dl {
 
 footer {
   font-size: .8rem;
-}
-
-strong {
-  text-decoration: none;
 }
