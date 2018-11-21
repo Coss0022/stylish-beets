@@ -10,7 +10,7 @@ h1 {
   font-weight: bolder;
 }
 
-ol > li {
+ul > li {
   font-family: "PT Sans", bold;
   font-weight: bold;
   list-style-type: none;
