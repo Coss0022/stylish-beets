@@ -1,6 +1,7 @@
 html {
   background-color: #c9b5ab;
   line-height: 1.5;
+  color: #222;
 }
 
 h1 {
@@ -49,15 +50,17 @@ blockquote {
   font-family: "PT Serif";
 }
 
-p, ul, dl {
-  color: #222;
-}
-
 footer {
   font-size: .8rem;
   font-family: "PT Serif";
 }
 
 ul > li {
-  font-family: "PT Serif"
+  font-family: "PT Serif";
+}
+
+h2 {
+  font-family: "PT Sans", sans-serif;
+  font-weight: bold;
+  font-size: 1.5rem;
 }
