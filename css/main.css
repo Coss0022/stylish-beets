@@ -52,8 +52,8 @@ blockquote {
 }
 
 footer {
-  font-size: .8rem;
   font-family: "PT Serif", serif;
+  font-size: .8rem;
 }
 
 ul > li {
@@ -83,5 +83,9 @@ h4 {
 
 .link {
   font-family: "PT Serif", serif;
+  font-size: .8rem;
+}
+
+.tags {
   font-size: .8rem;
 }
