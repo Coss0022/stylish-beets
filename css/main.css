@@ -45,8 +45,8 @@ blockquote {
 }
 
 .days {
-  font-size: 1.5rem;
-  font-family: "PT Serif"
+  font-size: 1.125rem;
+  font-family: "PT Serif";
 }
 
 p, ul, dl {
@@ -55,4 +55,9 @@ p, ul, dl {
 
 footer {
   font-size: .8rem;
+  font-family: "PT Serif";
+}
+
+ul > li {
+  font-family: "PT Serif"
 }
