@@ -5,23 +5,24 @@ html {
 }
 
 h1 {
-  font-family: "PT Sans", bold;
+  font-family: "PT Sans", sans-serif;
   font-size: 1.5rem;
   color: #3f1622;
   font-weight: bolder;
 }
 
 ol > li {
-  font-family: "PT Sans", bold;
+  font-family: "PT Sans", sans-serif;
   font-weight: bold;
   list-style-type: none;
 }
 
 a {
-  font-family: "PT Sans", bold;
+  font-family: "PT Sans", sans-serif;
   color: #8f2440;
   font-size: 1.14rem;
   text-decoration: none;
+  font-weight: bold;
 }
 
 a:hover {
@@ -30,7 +31,7 @@ a:hover {
 }
 
 figcaption {
-  font-family: "PT Serif";
+  font-family: "PT Serif", serif;
   text-align: center;
   font-weight: normal;
 }
@@ -41,18 +42,18 @@ img {
 }
 
 blockquote {
-  font-family: "PT Serif";
+  font-family: "PT Serif", serif;
   font-size: 1.5rem;
 }
 
 .days {
   font-size: 1.125rem;
-  font-family: "PT Serif";
+  font-family: "PT Serif", serif;
 }
 
 footer {
   font-size: .8rem;
-  font-family: "PT Serif";
+  font-family: "PT Serif", serif;
 }
 
 ul > li {
@@ -78,4 +79,8 @@ h4 {
   font-weight: bold;
   font-size: 1.5rem;
   color: #3f1622;
+}
+
+a:last-of-type {
+  font-family: "PT Serif", serif;
 }
