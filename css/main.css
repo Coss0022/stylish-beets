@@ -92,6 +92,7 @@ h4 {
 
 .cite {
   font-size: .8rem;
+  display: block;
 }
 
 p {
