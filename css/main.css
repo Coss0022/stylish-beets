@@ -98,3 +98,7 @@ h4 {
 p {
   font-family: "PT Serif", serif;
 }
+
+dt {
+  font-style: italic;
+}
