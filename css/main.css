@@ -1,26 +1,28 @@
 html {
   background-color: #c9b5ab;
   line-height: 1.5;
+  color: #222;
 }
 
 h1 {
-  font-family: "PT Sans", bold;
+  font-family: "PT Sans", sans-serif;
   font-size: 1.5rem;
   color: #3f1622;
   font-weight: bolder;
 }
 
 ol > li {
-  font-family: "PT Sans", bold;
+  font-family: "PT Sans", sans-serif;
   font-weight: bold;
   list-style-type: none;
 }
 
 a {
-  font-family: "PT Sans", bold;
+  font-family: "PT Sans", sans-serif;
   color: #8f2440;
   font-size: 1.14rem;
   text-decoration: none;
+  font-weight: bold;
 }
 
 a:hover {
@@ -29,7 +31,7 @@ a:hover {
 }
 
 figcaption {
-  font-family: "PT Serif";
+  font-family: "PT Serif", serif;
   text-align: center;
   font-weight: normal;
 }
@@ -40,18 +42,63 @@ img {
 }
 
 blockquote {
-  font-family: "PT Serif";
+  font-family: "PT Serif", serif;
   font-size: 1.5rem;
 }
 
 .days {
-  font-size: 1.5rem;
-}
-
-p, ul, dl {
-  color: #222;
+  font-size: 1.125rem;
+  font-family: "PT Serif", serif;
 }
 
 footer {
+  font-family: "PT Serif", serif;
   font-size: .8rem;
+}
+
+ul > li {
+  font-family: "PT Serif", serif;
+}
+
+h2 {
+  font-family: "PT Sans", sans-serif;
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: #3f1622;
+}
+
+h3 {
+  font-family: "PT Sans", sans-serif;
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: #3f1622;
+}
+
+h4 {
+  font-family: "PT Sans", sans-serif;
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: #3f1622;
+}
+
+.link {
+  font-family: "PT Serif", serif;
+  font-size: .8rem;
+}
+
+.tags {
+  font-size: .8rem;
+}
+
+.cite {
+  font-size: .8rem;
+  display: block;
+}
+
+p {
+  font-family: "PT Serif", serif;
+}
+
+dt {
+  font-style: italic;
 }
